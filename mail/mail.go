@@ -18,7 +18,7 @@ func SendMail(mailData string) {
 
 	m.SetHeader("To", "your@gmail.com",)
 
-	m.SetHeader("Subject", "Yeni Order")
+	m.SetHeader("Subject", "New Order")
 
 	m.SetBody("text/plain", mailData)
 
